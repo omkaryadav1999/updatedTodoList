@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 36, 63);
+}
+
+.Container {
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+h1 {
+    color: chartreuse;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+input,
+button {
+    border: none;
+}
+
+
+
+/* inputfild */
+.inputFild {
+    width: 350px;
+    margin: 15px auto;
+}
+
+/* todo list */
+
+.todocontainer {
+    margin: 5px auto;
+    width: 255px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p {
+    width: 210px;
+}
+
+.btnContainr {
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear {
+    width: 50px;
+    background-color: cyan;
+}
